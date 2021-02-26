@@ -62,7 +62,7 @@
   border: $accordion-border-width solid $accordion-border-color;
 
   + .accordion-item {
-    margin-top: -$accordion-border-width;
+    border-top: 0;
   }
 
   &:first-of-type {
